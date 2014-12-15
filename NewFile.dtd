@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT root (bahn+,wagon*)>
+<!ELEMENT bahn (schaffner)>
+<!ELEMENT wagon EMPTY>
+<!ELEMENT schaffner (#PCDATA)>
+<!ATTLIST bahn name CDATA #REQUIRED
+		  motorstaerke CDATA #IMPLIED
+		  wagons IDREFS #IMPLIED >
+<!ATTLIST schaffner name CDATA #REQUIRED>
+<!ATTLIST wagon id ID #REQUIRED>

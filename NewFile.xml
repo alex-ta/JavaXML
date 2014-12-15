@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "NewFile.dtd">
+<root>
+<bahn name="Seetalbahn" motorstaerke="10" wagons="W1 W2 W3">
+<schaffner name="Bernd">"Hey Leute"</schaffner>
+</bahn>
+<bahn name="Bergbahn" wagons ="W4">
+<schaffner name="Heinz">"Guten Tag"</schaffner>
+</bahn>
+
+<wagon id ="W1"></wagon>
+<wagon id ="W2"></wagon>
+<wagon id ="W3"></wagon>
+<wagon id ="W4"></wagon>
+</root>
